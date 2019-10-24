@@ -2,7 +2,7 @@ import csv
 import sys
 from collections import defaultdict, Counter
 
-with open('developer_Survey_2019/survey_results_public.csv') as f:
+with open('../developer_Survey_2019/survey_results_public.csv') as f:
     csv_reader = csv.DictReader(f)
     
     dev_type_info = {}
@@ -27,4 +27,5 @@ with open('output.txt', 'w') as the_file:
             language_pct = round(language_pct, 2)
 
             the_file.write(f'\t{language}: {language_pct}%\n')
+        the_file.write('\n')
 print("Results written into the output file")
