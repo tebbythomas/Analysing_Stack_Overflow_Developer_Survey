@@ -7,7 +7,6 @@ The results are here: <a href="https://github.com/tebbythomas/Analysing_Stack_Ov
 <br />
 <b>Credits:</b>
 <br />
-<br />
 Corey Schafer:
 <br />
 https://www.youtube.com/watch?v=_P7X8tMplsw
